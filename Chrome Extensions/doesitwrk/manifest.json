@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Does it Work",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["diw.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["diw_back.js"]
+  },
+  "browser_action":{
+    "default_icon":
+  }
+}
